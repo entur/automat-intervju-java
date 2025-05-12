@@ -28,6 +28,10 @@ application {
 	mainClass = 'org.entur.automat.oppgave.IntervjuOppgaveApplication'
 }
 
+run {
+	standardInput = System.in
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
